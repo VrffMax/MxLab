@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Playground\\MxLab\\Sample01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B181FFC4-C4B1-45DC-9DD1-6EC97DD68C32}|Sample01\\Sample01.csproj|c:\\playground\\mxlab\\sample01\\sample01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B181FFC4-C4B1-45DC-9DD1-6EC97DD68C32}|Sample01\\Sample01.csproj|solutionrelative:sample01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Playground\\MxLab\\Sample01\\Sample01\\Program.cs",
+              "RelativeDocumentMoniker": "Sample01\\Program.cs",
+              "ToolTip": "C:\\Playground\\MxLab\\Sample01\\Sample01\\Program.cs",
+              "RelativeToolTip": "Sample01\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:37:18.474Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0bFbAu5SfXbMlvqS7yIEtT0qRpwjEtfnrWg0mT3RaU49Ec8ul1UPqS+k6DRkcW38KGb2B4x52POByGn5bwmAbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Playground\\MxLab\\Sample01\\Sample01\\Sample01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maxim\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.4\\microsoft.dotnet.ilcompiler.8.0.4.nupkg.sha512",
+    "C:\\Users\\Maxim\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
+    "C:\\Users\\Maxim\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.4\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+C:\Playground\MxLab\Sample02\Sample02\bin\Debug\net8.0\Sample02.exe
+C:\Playground\MxLab\Sample02\Sample02\bin\Debug\net8.0\Sample02.deps.json
+C:\Playground\MxLab\Sample02\Sample02\bin\Debug\net8.0\Sample02.runtimeconfig.json
+C:\Playground\MxLab\Sample02\Sample02\bin\Debug\net8.0\Sample02.dll
+C:\Playground\MxLab\Sample02\Sample02\bin\Debug\net8.0\Sample02.pdb
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.AssemblyInfoInputs.cache
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.AssemblyInfo.cs
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.csproj.CoreCompileInputs.cache
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.dll
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\refint\Sample02.dll
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.pdb
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.genruntimeconfig.cache
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\ref\Sample02.dll
