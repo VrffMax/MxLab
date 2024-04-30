@@ -4,7 +4,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello. This sample # 01.");
+        Console.WriteLine("Hello. This sample # 02.");
 
         var random = new Random();
 

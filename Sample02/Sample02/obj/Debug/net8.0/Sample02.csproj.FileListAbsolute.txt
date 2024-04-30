@@ -12,3 +12,4 @@ C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\refint\Sample02.dll
 C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.pdb
 C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.genruntimeconfig.cache
 C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\ref\Sample02.dll
+C:\Playground\MxLab\Sample02\Sample02\obj\Debug\net8.0\Sample02.sourcelink.json
