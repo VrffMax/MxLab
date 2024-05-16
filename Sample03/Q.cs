@@ -2,26 +2,29 @@
 
 public class Q
 {
+    private readonly Random random = new Random();
+
     private readonly int _energy;
     private readonly int _vectorsLength;
     private readonly int _measuresLength;
+    private readonly int _maxCounter;
 
-    public Q(int energy, int vectorsLength, int measuresLength)
+    public Q(int energy, int vectorsLength, int measuresLength, int maxCounter)
     {
         _energy = energy;
         _vectorsLength = vectorsLength;
         _measuresLength = measuresLength;
+        _maxCounter = maxCounter;
     }
 
-    public (int energy, int counter) Measure
+    public Task<(int energy, int measuredEnergy, int measureError, int counter)> MeasureAsync
     {
         get
         {
-            var random = new Random();
-
             var angle = (double)_energy / int.MaxValue;
             {
                 var counter = 0;
+                var draftEnergies = new int[_vectorsLength];
                 var draftCounters = new int[_vectorsLength, _measuresLength];
 
                 int draftEnergy;
@@ -50,14 +53,37 @@ public class Q
                             measuresSum += draftCounters[vectorIndex, measureIndex];
                         }
 
-                        draftAngle += (double)measuresSum / counter;
+                        var touchAngle = (double)measuresSum / counter;
+                        {
+                            draftAngle += touchAngle;
+                            draftEnergies[vectorIndex] = (int)(int.MaxValue * touchAngle);
+                        }
                     }
 
                     draftEnergy = (int)(int.MaxValue * draftAngle / _vectorsLength);
-                }
-                while (draftEnergy != _energy);
 
-                return (draftEnergy, counter);
+                    ///*
+
+                    var deltas = draftEnergies.Select(x => Math.Abs(draftEnergy - x)).ToArray();
+                    var minDelta = deltas.Min();
+
+                    var minDeltaVectorIndex = Array.IndexOf(deltas, minDelta);
+
+                    for (var vectorIndex = 0; vectorIndex < _vectorsLength && vectorIndex != minDeltaVectorIndex; vectorIndex++)
+                    {
+                        for (var measureIndex = 0; measureIndex < _measuresLength; measureIndex++)
+                        {
+                            draftCounters[vectorIndex, measureIndex] = draftCounters[minDeltaVectorIndex, measureIndex];
+                        }
+                    }
+
+                    //*/
+                }
+                while (draftEnergy != _energy && counter < _maxCounter);
+
+                var measureError = _energy - draftEnergy;
+
+                return Task.FromResult((_energy, draftEnergy, measureError, counter));
             }
         }
     }
